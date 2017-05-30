@@ -2,7 +2,7 @@
 
 [![npm](https://img.shields.io/npm/l/ctr-loader.svg)](https://github.com/ctr-lang/ctr-loader/blob/master/LICENSE.txt)
 [![npm](https://img.shields.io/npm/v/ctr-loader.svg)](https://www.npmjs.com/package/ctr-loader)
-[![wercker status](https://app.wercker.com/status/1b86ee1c3b21b487764b9e14794a4b36/s/master "wercker status")](https://app.wercker.com/project/byKey/1b86ee1c3b21b487764b9e14794a4b36)
+[![wercker status](https://app.wercker.com/status/9c95667ecd92b8c5f022b228cd7d0a75/s/master "wercker status")](https://app.wercker.com/project/byKey/9c95667ecd92b8c5f022b228cd7d0a75)
 [![David](https://img.shields.io/david/ctr-lang/ctr-loader.svg)](https://github.com/ctr-lang/ctr-loader/blob/master/package.json)
 
 ## Description
