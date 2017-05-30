@@ -1,0 +1,43 @@
+body {
+  background: #eee;
+}
+h1 {
+  font-size: 2em;
+}
+h1:hover {
+  color: #00f;
+  transition-delay: 20s;
+  transition-duration: 4s;
+  transition-property: color;
+  transition-timing-function: ease-in;
+}
+.box-1 {
+  width: 200px;
+}
+.box-1:hover {
+  color: #800080;
+  transition-delay: 20s;
+  transition-duration: 4s;
+  transition-property: color;
+  transition-timing-function: ease-in;
+}
+.box-2 {
+  width: 400px;
+}
+.box-2:hover {
+  color: #f00;
+  transition-delay: 20s;
+  transition-duration: 10s;
+  transition-property: color;
+  transition-timing-function: ease-in;
+}
+.box-3 {
+  width: 800px;
+}
+.box-3:hover {
+  color: #800080;
+  transition-delay: 20s;
+  transition-duration: 4s;
+  transition-property: color;
+  transition-timing-function: ease-in;
+}

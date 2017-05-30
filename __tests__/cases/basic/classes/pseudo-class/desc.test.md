@@ -1,0 +1,1 @@
+__Description__: This is not a `ctr` class but it's structured like one, so its like a pseudo class which mimics the same actions as classes. This just demonstrates you don't have to use the confines of `ctr` classes and can roll out your own solution.

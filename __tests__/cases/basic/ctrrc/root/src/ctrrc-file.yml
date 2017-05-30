@@ -1,0 +1,18 @@
+# This file is copyied and written to:
+# path.resolve(__dirname, './src/ctrrc-file.yml');
+
+$$:
+  # main colors
+  colors:
+    main-bg: '#eee'
+  # box vars
+  box:
+    size: 800px
+    color: purple
+
+# options
+option:
+  hover:
+    duration: 4s
+    delay: 20s
+    ease: ease-in

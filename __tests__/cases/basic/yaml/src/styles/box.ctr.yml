@@ -1,0 +1,11 @@
+
+# global file specific vars
+$$:
+  width: 200px
+
+.box:
+  # color is set in box.ctr.js
+  color: $color$
+  width: $width$
+  height: 200px
+

@@ -1,0 +1,14 @@
+.box-1 {
+  width: 400px;
+  background: #00f;
+}
+.box-2 {
+  width: 200px;
+}
+.box-2:hover {
+  background: #00f;
+  transition-delay: 0s;
+  transition-duration: 10s;
+  transition-property: background;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}

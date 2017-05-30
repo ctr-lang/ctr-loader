@@ -1,0 +1,67 @@
+.kool-loader {
+  width: 5em;
+  height: 13em;
+  margin: 88px auto;
+  position: relative;
+  animation-duration: 1s;
+  animation-delay: 0.3333s;
+  transform: translateZ(0);
+  animation-fill-mode: none;
+  animation-direction: normal;
+  color: rgba(52,152,219,0.75);
+  animation-name: _koolLoader_;
+  animation-play-state: running;
+  background: rgba(52,152,219,0.75);
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.kool-loader::after {
+  top: 0;
+  width: 5em;
+  height: 13em;
+  content: "";
+  position: absolute;
+  animation-duration: 1s;
+  animation-delay: 0.6667s;
+  animation-fill-mode: none;
+  animation-direction: normal;
+  color: rgba(52,152,219,0.75);
+  left: calc(5em + (5em / 2));
+  animation-name: _koolLoader_;
+  animation-play-state: running;
+  background: rgba(52,152,219,0.75);
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.kool-loader::before {
+  top: 0;
+  width: 5em;
+  height: 13em;
+  content: "";
+  position: absolute;
+  animation-delay: 0s;
+  animation-duration: 1s;
+  animation-fill-mode: none;
+  animation-direction: normal;
+  color: rgba(52,152,219,0.75);
+  animation-name: _koolLoader_;
+  animation-play-state: running;
+  background: rgba(52,152,219,0.75);
+  animation-iteration-count: infinite;
+  left: calc(calc(5em + (5em / 2)) * -1);
+  animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+@keyframes _koolLoader_ {
+  0% {
+    height: 13em;
+    box-shadow: 0 0;
+  }
+  50% {
+    height: calc(13em / 2);
+    box-shadow: 0 calc((13em * 2) * -1);
+  }
+  100% {
+    height: 13em;
+    box-shadow: 0 0;
+  }
+}

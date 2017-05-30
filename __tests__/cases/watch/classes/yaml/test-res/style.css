@@ -1,0 +1,26 @@
+.test {
+  width: 200px;
+}
+.box-1 {
+  opacity: 1;
+  width: 1111px;
+  font-size: 1em;
+  height: 1111px;
+  background: #f00;
+  border-radius: 1px;
+}
+.box-2 {
+  opacity: 1;
+  width: 2222px;
+  height: 2222px;
+  background: #f00;
+  border-radius: 2px;
+}
+.box-3 {
+  opacity: 0.75;
+  width: 3333px;
+  height: 3333px;
+  font-size: 12px;
+  background: #008080;
+  border-radius: 20px;
+}

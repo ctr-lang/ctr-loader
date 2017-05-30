@@ -1,0 +1,12 @@
+
+# global file specific vars
+$$:
+  # @@test-2:[replace:(800px) -> with:(250px)]
+  width: 800px
+
+.box-1:
+  # @@test-1:[replace:(200px) -> with:(400px)]
+  width: 200px
+
+.box-2:
+  width: $width$

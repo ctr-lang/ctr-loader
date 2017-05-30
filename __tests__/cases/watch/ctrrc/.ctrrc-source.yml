@@ -1,0 +1,15 @@
+# IMPORTANT -> this is the source file for both /root and /local test.
+# Since the rc file is the file in question, thus the file that we,
+# will be altering its best to have a clean copy. Test, grab this file
+# and write it locally or to the root -> after test's are done copys are del
+
+# local vars
+$$:
+  box-1:
+    # first change
+    # @@test-1:[replace:(200px) -> with:(400px)]
+    width: 200px
+  box-2:
+    # second change
+    # @@test-2:[replace:(800px) -> with:(200px)]
+    width: 800px

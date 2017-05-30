@@ -1,0 +1,18 @@
+.box {
+  width: 222px;
+  height: 400px;
+}
+.box:hover {
+  background: #eee;
+  transition-delay: 0s;
+  transition-duration: 420s;
+  transition-property: background;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+.box:not(:hover) {
+  background: #000;
+  transition-delay: 0s;
+  transition-duration: 420s;
+  transition-property: background;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
