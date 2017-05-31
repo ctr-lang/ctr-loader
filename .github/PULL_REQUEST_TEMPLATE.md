@@ -6,8 +6,7 @@
 
 #### Checklist:
 <!--- All the checkboxes must be checked even if they do not pertain -->
-- [ ] Update/change/fix has test(s)
+- [ ] Update/change/fix has/passes test(s)
 - [ ] Follows the existing code style
-- [ ] Has decent commit message(s)
+- [ ] Has decent commit message
 - [ ] Commit and code comes with a smile
-
