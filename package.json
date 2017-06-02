@@ -34,7 +34,7 @@
     "test:debug": "iron-node node_modules/mocha/bin/_mocha __tests__/run.test.js --compilers js:babel-core/register"
   },
   "dependencies": {
-    "ctr": "0.3.7",
+    "ctr": "^0.4.0",
     "loader-utils": "1.1.0"
   },
   "devDependencies": {
