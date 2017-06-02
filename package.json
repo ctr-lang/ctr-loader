@@ -1,6 +1,6 @@
 {
   "name": "ctr-loader",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "ctr loader module for webpack",
   "license": "Apache-2.0",
   "author": "te schultz",
